@@ -59,4 +59,17 @@ public class LL1 {
         size ++;
     }
 
+    public void insert(int value, int index){
+        if(index == 0){
+            insertFirst(value);
+            return;
+        }
+        if(index == size){
+            insertLast(value);
+            return;
+        }
+
+        
+    }
+
 }
